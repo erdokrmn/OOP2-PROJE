@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Oop2Ödev.BiletSorgulama">
+    <ContentPage.Content>
+
+        <Frame HorizontalOptions="Center" VerticalOptions="Center" Padding="10" BackgroundColor="Black" Margin="10">
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Link" TextColor="Blue" TextDecorations="Underline">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding TapCommand}"
+                                                      CommandParameter="https://ebilet.fitbulut.com/ETIC_WEB_CUST_IDO_10/index.html">
+
+                                    </TapGestureRecognizer>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Frame>
+            
+    </ContentPage.Content>
+</ContentPage>

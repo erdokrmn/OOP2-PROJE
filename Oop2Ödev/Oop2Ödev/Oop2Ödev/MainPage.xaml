@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Oop2Ödev.MainPage">
+
+    <StackLayout>
+        
+        <StackLayout>
+            <Image Source="resim1" HeightRequest="500" WidthRequest="400"/>
+        </StackLayout>
+        <StackLayout>
+            <Button x:Name="btnGiris" Text="Giriş Yap" BackgroundColor="Blue" />
+            <Button x:Name="btnBiletAl" Text="Bilet Al" BackgroundColor="Orange" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="btnSeferSaati" Text="Sefer saatleri" />
+            <Button x:Name="btnBiletlerim" Text="Biletlerim" />
+            <Button x:Name="btnDuyuru" Text="Duyurular" />
+            
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

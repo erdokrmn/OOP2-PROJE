@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Oop2Ödev.FavoriTerminallerim">
+    <ScrollView>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Yenikapı" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+                    
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Bursa" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Bandırma" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Yalova" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Pendik" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Armutlu" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Avşa" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Marmara Adası" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Çınarcık" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Esenköy" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Bostancı" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Beşiktaş" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Kumla" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Avcılar" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Ambarlı" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Kadıköy" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Büyükçekmece" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Kabataş" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Ekinlik" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  >
+                <Label Margin="10"
+                       Text="Tekirdağ" 
+                       WidthRequest="300"
+                       FontSize="Large"
+                       HorizontalOptions="Fill">
+
+                </Label>
+                <CheckBox ></CheckBox>
+            </StackLayout>
+        </StackLayout>
+			
+            
+        </ScrollView>
+</ContentPage>

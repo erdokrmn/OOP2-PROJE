@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             x:Class="Oop2Ödev.MyFlyoutPageDetail"
+             Title="Detail">
+    <StackLayout Padding="10">
+
+        <StackLayout>
+            <CarouselView x:Name="cv">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Frame HasShadow="True"
+                                   BorderColor="DarkGray"
+                                   CornerRadius="5"
+                                   HeightRequest="300"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="CenterAndExpand"
+                                   >
+                                <Image Source="{Binding Image}"
+                                       Aspect="AspectFill"
+                                       HeightRequest="300"
+                                       HorizontalOptions="Center"/>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+                
+            </CarouselView>
+
+
+        </StackLayout>
+       
+        <StackLayout>
+            <Button x:Name="btnGiris" Text="Giriş Yap" BackgroundColor="LightBlue" TextColor="White" FontSize="Small" />
+            <Button x:Name="btnBiletAl" Text="Bilet Al" BackgroundColor="Orange" TextColor="White" FontSize="Small" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="btnSeferSaati" Text="Sefer Saatleri"  TextColor="Black" BackgroundColor="White" ImageSource="sefersaatiresmi.png"  FontSize="Micro" FontAttributes="None" VerticalOptions="CenterAndExpand" />
+            <Button x:Name="btnBiletlerim" Text="Biletlerim"  TextColor="Black" BackgroundColor="White" ImageSource="biletresmi.png"  FontSize="Micro" FontAttributes="None" VerticalOptions="CenterAndExpand" />
+            <Button x:Name="btnDuyuru" Text="Duyurular"  TextColor="Black" BackgroundColor="White" ImageSource="canresmi1.png"  FontSize="Micro" FontAttributes="None" VerticalOptions="CenterAndExpand" />
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

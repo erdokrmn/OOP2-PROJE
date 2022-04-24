@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "t0kfaxQCpP2bh7pK0HMlevUpo+Cbf+BeDVQ7BP83KmLYpdY82Tg26LJVc7/of6n6H5BSfKjDng2aic5JroxMWA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\erdo\\source\\repos\\Oop2Ödev\\Oop2Ödev\\Oop2Ödev\\Oop2Ödev.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\erdo\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
+    "C:\\Users\\erdo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\erdo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\erdo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\erdo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\erdo\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
